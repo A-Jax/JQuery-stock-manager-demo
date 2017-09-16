@@ -1,0 +1,17 @@
+#productList {
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    color: black;
+
+}
+
+
+input[type=text]{
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: left;
+}

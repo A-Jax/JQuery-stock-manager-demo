@@ -1,0 +1,30 @@
+<html>
+    <head>
+ 
+       <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+    <h1>Stock Manager</h1>
+        <input id="barcode" type="text" placeholder="Barcode"><br>
+        <input id="category" type="text" placeholder="Category"><br>
+        <input id="name" type="text" placeholder="Name"><br>
+        <input id="price" type="text" placeholder="Price"><br>
+        
+        <button id="pbtn" name="submit" class="btnAction">Add Product</button><br>
+                
+        <input id="removeProduct" type="text" placeholder="Enter barcode"><br>
+
+        <button id="rbtn" class="btnAction">Remove Stock</button>
+  
+        <h2>Product List</h2>
+        <div id="productList"> </div>
+           
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="users.js"></script>
+        <script src="addProduct.js"></script>
+        <script src="removeProduct.js"></script>
+        
+    </body>
+</html>
